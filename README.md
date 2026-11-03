@@ -1,23 +1,23 @@
 ---
 titulo: Projeto final - Laboratório de Programação 2 (Web)
 descricao: Visão geral do projeto, integrantes, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
-autores: Nome do integrante 1, Nome do integrante 2, Nome do integrante 3
+autores: Enzo Bueno, Gabriel Henrique, Gabriel José
 versao: v1.0
-ultima_atualizacao: Dia/mês/ano
+ultima_atualizacao: 03/11/2026
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
-# [Nome do projeto]
+# Site Consoles
 
-[Descrição em uma ou duas frases: qual problema o site resolve e para quem.]
+O Site tira duvidas entre a cronologia dos Consoles, possui curiosidades sobre cada console e a história geral dos Consoles para quem é leigo no ramo dos Games
 
 ## Integrantes
 
 | Nome | Onde atuou no projeto? (Mínimo de 3 frentes diferentes para cada aluno) |
 |---|---|
-| [Nome completo] | [Ex.: Figma, estrutura HTML e documentação] |
-| [Nome completo] | [Ex.: estilos CSS, JS e responsividade] |
-| [Nome completo] | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
+| Enzo Henrique Resende Bueno | [Ex.: Figma, estrutura HTML e documentação] |
+| Gabriel Henrique da Silva Pereira | [Ex.: estilos CSS, JS e responsividade] |
+| Gabriel José de Brito Santana | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
 
 ## Links
 
