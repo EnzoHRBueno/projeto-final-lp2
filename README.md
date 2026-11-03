@@ -7,7 +7,7 @@ ultima_atualizacao: 03/11/2026
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
-# Site Consoles
+# Site Consoles (CronoJogos)
 
 O Site tira duvidas entre a cronologia dos Consoles, possui curiosidades sobre cada console e a história geral dos Consoles para quem é leigo no ramo dos Games
 
