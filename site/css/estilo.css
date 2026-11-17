@@ -8,20 +8,21 @@ body {
     color: #f1f5f9;
 }
 
-nav.navbar{
+nav.navbar {
     width: 100%;
     background-color: #1b2233;
 }
 
 .conteudo-navbar {
-   
+
     height: 80px;
     padding: 15px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0;;
+    gap: 0;
+    ;
 }
 
 .botao-nav {
@@ -36,7 +37,6 @@ nav.navbar{
     padding: 8px;
     border: none;
     border-radius: 10px;
-
 }
 
 .botao-nav span {
@@ -45,7 +45,6 @@ nav.navbar{
     height: 3px;
     border-radius: 3px;
     background-color: #f1f5f9;
-
 }
 
 .menu-lateral {
@@ -104,10 +103,53 @@ nav.navbar{
 
 
 
-.background-img{
-    opacity: 0.5;
+.background-img {
+    opacity: 0.4;
     margin: 5px;
     padding: 10px;
     display: flex;
     justify-content: center;
+    position: absolute;
+    z-index: -1001;
+}
+
+.texto-home {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.travessao {
+    position: relative;
+    background-color: #00c2ff;
+    height: 2px;
+    width: 50px;
+    bottom: -8px;
+}
+
+.mini-titulo {
+    width: 100%;
+    display: flex;
+    color: #00c2ff;
+    gap: 5px;
+}
+
+.titulo {
+    h2 {
+        text-align: center;
+
+        span {
+            color: #00c2ff;
+        }
+    }
+}
+.img-home{
+    position: relative;
+    bottom: 23px;
 }
