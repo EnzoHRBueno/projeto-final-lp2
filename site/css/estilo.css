@@ -7,7 +7,6 @@ body {
     background-color: #10141F;
     color: #f1f5f9;
 }
-
 nav.navbar {
     width: 100%;
     background-color: #1b2233;
@@ -101,28 +100,41 @@ nav.navbar {
     transform: translateY(-9px) rotate(-45deg);
 }
 
-
-
-.background-img {
-    opacity: 0.4;
-    margin: 5px;
-    padding: 10px;
+.conteudo-geral{
     display: flex;
+    align-items: center;
     justify-content: center;
-    position: absolute;
-    z-index: -1001;
+    flex-direction: column;
+}
+
+.card-home{
+    width: 900px;
+    background-color: #252F45;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 15px;
+    
+
 }
 
 .texto-home {
-    position: relative;
-    top: 50px;
+    color: #f1f6ff;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 5px;
     padding: 10px;
-    gap: 10px;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-home{
+    img{
+        width: 250px;
+        height: auto;
+        border-radius: 50px;
+    }
 }
 
 .travessao {
@@ -142,14 +154,107 @@ nav.navbar {
 
 .titulo {
     h2 {
-        text-align: center;
+        text-align: start;
 
         span {
             color: #00c2ff;
         }
     }
 }
-.img-home{
-    position: relative;
-    bottom: 23px;
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.botao-home{
+    border-radius: 25px;
+    background-color: #00c2ff;
+    color: #f1f6ff ;
+    border-style: none;
+    height: 30px;
+    width: 300px;
+}    
+
+
+
+/*PÁGINAS EMPRESAS*/
+.conteudo-empresas{
+    margin: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#xbox-pagina{
+    background-color: #101510;
+}
+
+.xbox{
+    width: 200px;
+    height: 35px;
+    background-color: #107c10;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.sony{
+    width: 200px;
+    height: 35px;
+    background-color: #0070d1;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.nintendo{
+    width: 200px;
+    height: 35px;
+    background-color: #e60012;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.botoes-empresas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.titulo-empresas{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.jogos-empresa{
+    background-color: #0b3b0d;
+    border-radius: 25px;
+}
+
+.texto-empresa{
+    width: 900px;
+    background-color: #0b3b0d;
+    border-radius: 25px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.texto-empresa p{
+    margin: 5px;
+    padding: 15px;
+}
+
+
+
+.banner img{
+    width: 100%;
+    height: 250px;
 }
