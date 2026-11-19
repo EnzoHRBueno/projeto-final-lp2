@@ -100,6 +100,17 @@ nav.navbar {
     transform: translateY(-9px) rotate(-45deg);
 }
 
+.IF-footer{
+    height: 100px;
+    width: auto;
+}
+
+.logo-IF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .conteudo-geral{
     display: flex;
     align-items: center;
@@ -188,7 +199,7 @@ nav.navbar {
     gap: 50px;
 }
 
-#xbox-pagina{
+#pagina{
     background-color: #101510;
 }
 
